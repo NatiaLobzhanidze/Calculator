@@ -13,8 +13,17 @@ class ViewController: UIViewController {
     @IBOutlet weak var resultLabel: UILabel!
     @IBOutlet weak var historyLabel: UILabel!
     
+    var buttonView = CustomButton()
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        for subview in self.view.subviews {
+            if subview is UIButton {
+                let button = subview as! UIButton
+                // do smth with a button
+                
+            }
+        }
       
     }
 
