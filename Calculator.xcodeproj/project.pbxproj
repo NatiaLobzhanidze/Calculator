@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		609660C5280184DD009C3F9E /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 609660C4280184DD009C3F9E /* CustomButton.swift */; };
+		609660C7280F11CB009C3F9E /* Operations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 609660C6280F11CB009C3F9E /* Operations.swift */; };
 		60C7953D27FD8A6E007B149C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60C7953C27FD8A6E007B149C /* AppDelegate.swift */; };
 		60C7953F27FD8A6E007B149C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60C7953E27FD8A6E007B149C /* SceneDelegate.swift */; };
 		60C7954127FD8A6E007B149C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60C7954027FD8A6E007B149C /* ViewController.swift */; };
@@ -20,6 +21,7 @@
 
 /* Begin PBXFileReference section */
 		609660C4280184DD009C3F9E /* CustomButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		609660C6280F11CB009C3F9E /* Operations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Operations.swift; sourceTree = "<group>"; };
 		60C7953927FD8A6E007B149C /* Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Calculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		60C7953C27FD8A6E007B149C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		60C7953E27FD8A6E007B149C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -66,6 +68,7 @@
 				60C7953E27FD8A6E007B149C /* SceneDelegate.swift */,
 				60C7955427FDD48A007B149C /* Utilities */,
 				60C7954027FD8A6E007B149C /* ViewController.swift */,
+				609660C6280F11CB009C3F9E /* Operations.swift */,
 				60C7954227FD8A6E007B149C /* Main.storyboard */,
 				60C7954527FD8A6E007B149C /* Assets.xcassets */,
 				60C7954727FD8A6E007B149C /* LaunchScreen.storyboard */,
@@ -158,6 +161,7 @@
 				60C7954127FD8A6E007B149C /* ViewController.swift in Sources */,
 				60C7955127FDC253007B149C /* CornerRadius Extension 2.swift in Sources */,
 				609660C5280184DD009C3F9E /* CustomButton.swift in Sources */,
+				609660C7280F11CB009C3F9E /* Operations.swift in Sources */,
 				60C7953D27FD8A6E007B149C /* AppDelegate.swift in Sources */,
 				60C7953F27FD8A6E007B149C /* SceneDelegate.swift in Sources */,
 				60C7955327FDD474007B149C /* ColorExtension.swift in Sources */,
