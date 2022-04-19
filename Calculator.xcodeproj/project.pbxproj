@@ -45,6 +45,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		609660C8280F3149009C3F9E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				60C7953C27FD8A6E007B149C /* AppDelegate.swift */,
+				60C7953E27FD8A6E007B149C /* SceneDelegate.swift */,
+				60C7954727FD8A6E007B149C /* LaunchScreen.storyboard */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		609660C9280F3182009C3F9E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				60C7954527FD8A6E007B149C /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		609660CA280F31B8009C3F9E /* Presentations */ = {
+			isa = PBXGroup;
+			children = (
+				60C7954027FD8A6E007B149C /* ViewController.swift */,
+				609660C6280F11CB009C3F9E /* Operations.swift */,
+				60C7954227FD8A6E007B149C /* Main.storyboard */,
+			);
+			path = Presentations;
+			sourceTree = "<group>";
+		};
 		60C7953027FD8A6E007B149C = {
 			isa = PBXGroup;
 			children = (
@@ -64,14 +92,10 @@
 		60C7953B27FD8A6E007B149C /* Calculator */ = {
 			isa = PBXGroup;
 			children = (
-				60C7953C27FD8A6E007B149C /* AppDelegate.swift */,
-				60C7953E27FD8A6E007B149C /* SceneDelegate.swift */,
+				609660C8280F3149009C3F9E /* Supporting Files */,
 				60C7955427FDD48A007B149C /* Utilities */,
-				60C7954027FD8A6E007B149C /* ViewController.swift */,
-				609660C6280F11CB009C3F9E /* Operations.swift */,
-				60C7954227FD8A6E007B149C /* Main.storyboard */,
-				60C7954527FD8A6E007B149C /* Assets.xcassets */,
-				60C7954727FD8A6E007B149C /* LaunchScreen.storyboard */,
+				609660CA280F31B8009C3F9E /* Presentations */,
+				609660C9280F3182009C3F9E /* Resources */,
 				60C7954A27FD8A6E007B149C /* Info.plist */,
 			);
 			path = Calculator;

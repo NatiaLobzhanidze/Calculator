@@ -32,17 +32,8 @@
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" translatesAutoresizingMaskIntoConstraints="NO" id="6hj-cQ-GYj">
                                 <rect key="frame" x="30" y="104" width="333" height="200"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fQr-X5-4NI">
-                                        <rect key="frame" x="0.0" y="0.0" width="333" height="80"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="80" id="b2x-sP-cdu"/>
-                                        </constraints>
-                                        <fontDescription key="fontDescription" type="system" pointSize="27"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="G2O-AX-ztZ">
-                                        <rect key="frame" x="0.0" y="146" width="333" height="54"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="333" height="200"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="45"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
@@ -825,7 +816,6 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="historyLabel" destination="fQr-X5-4NI" id="xWn-hf-4iI"/>
                         <outlet property="mySwitch" destination="4ba-rD-bpj" id="est-4K-xyo"/>
                         <outlet property="resultLabel" destination="G2O-AX-ztZ" id="Gob-3b-EDn"/>
                     </connections>
